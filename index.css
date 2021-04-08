@@ -43,7 +43,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border: 1px solid grey;
+   
 }
 
 /*General Styles*/
@@ -53,8 +53,11 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
-
 }
+header{
+    border:none;
+}
+
 h1{
     font-family: "Chelsea Market", cursive;
     font-size: 5rem;
@@ -68,6 +71,7 @@ section{
 /*headers section style*/
 nav{
     padding:2% 0;
+    
 }
 nav a{
     display:inline-block;
@@ -95,6 +99,7 @@ nav a{
 .top{
     position:relative;
     width:100%;
+    border:none;
     
 }
 .top div{
@@ -120,12 +125,16 @@ nav a{
     position: absolute;
 }
 .right p{
-    padding: 2% 20%;
+    padding: 2% 24%;
     
 }
 h2{
-    font-size: 1.5rem;
-    padding: 4% 2% 0;
+    font-size: 1.75rem;
+    padding: 6% 4% 2%;
+}
+.geninfo{
+    margin-top:0;
+    padding: 0;
 }
 
 .info1{
@@ -140,27 +149,46 @@ h2{
 /*Midsection*/
 
 .midsection{
-
-   
     text-align:center;
     display: block;
-    margin-left:35%;
-    margin-right:35%;
-    
-
+    margin-left:20%;
+    margin-right:20%;
+    padding-top: 0;
 }
 
 .midsection .firepic{
     margin-left:40%;
     margin-right:40%;
-    padding: 5%;
+    padding: 0%;
 }
 
 .midsection .fireinfotxt{
-    margin-left:30%;
-    margin-right:30%;
+    margin-left:23%;
+    margin-right:23%;
+}
+span{
+    font-weight:bold;
+}
+
+.camperpic{
+    margin-left:40%;
+    margin-right:40%;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    padding: 0%;
 }
 
 .lodginginfo{
-    
+    margin-left:15%;
+    margin-right:15%;
+    text-align:center;
+}
+
+footer{
+    background-color:#F9E7DC;
+
+}
+.footerimage{
+    margin: bottom 0;
+    padding-bottom: 0;
 }
