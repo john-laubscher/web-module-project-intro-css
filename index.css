@@ -12,6 +12,9 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	margin: 0;
 
 	}
+*{
+    font-family: 'Roboto Mono', monospace;
+}
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
@@ -39,25 +42,27 @@ blockquote, q {
 
 *{
     box-sizing:border-box;
-    max-width: 1;
+    max-width:100%;
     border: 1px solid grey;
 }
 
 /*General Styles*/
 html{
-    font-size:62.5;
+    font-size:62.5%;
 }
 body{
-    font-size:1.6re;
+    font-size:1.6rem;
     line-height:1.5;
 
 }
 h1{
-    font-family:
-    font: size 5rem;
+    font-family: "Chelsea Market", cursive;
+    font-size: 6.5rem;
+    padding:1rem;
 }
 section{
     padding:4% 0;
+    max-width:100%;
 }
 
 /*headers section style*/
@@ -74,34 +79,59 @@ nav a{
     text-decoration:none;
 }
 .orange{
-    color: #FF764E;
+    background-color: #FF764E;
     margin-left:10%;
 }
 .blue{
-    color:#5ED3EB;
+   background-color:#5ED3EB;
     margin: 0 24%;
 }
 .yellow{
-    color:#FFCD69
+    background-color:#FFCD69;
 }
 
 /*Top Section styles*/
 .top{
     position:relative;
+    width:100%;
+    
 }
 .top div{
     display:inline-block;
-    width:45%;
     margin:0 2%;
     text-align:center;
 }
 .left img{
-    border: radius 50%;
-    width:60%;
+    border-radius: 50%;
+    display:inline-block;
+    width:80%;
+    margin:0px;
 }
+.top .left{
+    width:25%
+}
+
 .right{
     padding:4%;
     line-height:2px;
-    position:absolute;
-    bottom:20%;
+    width:75%;
+    display: inline-block;
+    position: absolute;
+}
+.right p{
+    padding: 5%;
+    
+}
+h2{
+    font-size: 2rem;
+    padding: 3%;
+}
+
+.info1{
+    background-color:#DDB9A3;
+    color:#fff;
+    width:90%;
+    padding: 2%;
+    margin: 5%;
+    text-align:center;
 }
